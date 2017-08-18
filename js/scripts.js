@@ -25,6 +25,7 @@ var pongGen = function(inputNum) {
         numberArr[-number-1] = 'pong';
       }
     });
+    // Greater Than Zero, opposite of the negatives
   } else if (inputNum > 0) {
       for (var i = 1; i <= inputNum; i++) {
         numberArr.push(i);
