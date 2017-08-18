@@ -41,3 +41,11 @@ var pongGen = function(inputNum) {
   }
   return numberArr;
 };
+
+var outputAnswer = function(outputArr) {
+    $('ul#answer').empty();
+    outputArr.forEach(function(item) {
+    $('ul#answer').append('<li>' + item + '</li>');
+  });
+  return;
+}
