@@ -1,0 +1,14 @@
+body {
+  text-align: center;
+  background-color: #c39564;
+  list-style-position: inside;
+  font-family: sans-serif;
+}
+
+img {
+  width: 300px;
+  height: auto;
+}
+#answer {
+  color: lightblue;
+}
